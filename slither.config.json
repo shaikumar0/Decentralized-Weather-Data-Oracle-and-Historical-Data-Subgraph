@@ -1,0 +1,14 @@
+{
+  "detectors_to_exclude": [
+    "solc-version",
+    "naming-convention",
+    "external-function"
+  ],
+  "exclude_informational": false,
+  "exclude_low": false,
+  "exclude_medium": false,
+  "exclude_high": false,
+  "disable_color": false,
+  "filter_paths": "lib/",
+  "exclude_dependencies": true
+}
