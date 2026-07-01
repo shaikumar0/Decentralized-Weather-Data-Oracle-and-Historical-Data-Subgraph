@@ -1,0 +1,41 @@
+# Node modules
+node_modules
+npm-debug.log
+
+# Build outputs
+out
+cache
+broadcast
+
+# Environment and secrets
+.env
+.env.local
+
+# IDE
+.vscode
+.idea
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Foundry
+lib
+
+# Logs (keep structure, not content)
+logs/*.log
+
+# Data (keep structure, not content)
+data/*.json
+!data/.gitkeep
+!logs/.gitkeep
+
+# Git
+.git
+.gitignore
+
+# README
+*.md
